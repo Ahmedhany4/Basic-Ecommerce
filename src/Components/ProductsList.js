@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import Product from './Product';
 
 function ProductsList() {
-  const api_url = "https://x8ki-letl-twmt.n7.xano.io/api:CcyG8c7s/products";
+  const api_url = "https://x8ki-letl-twmt.n7.xano.io/api:CcyG8c7s/product_list";
   const [products, setProducts] = useState([]);
   const [categories, setCategories] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState(null);

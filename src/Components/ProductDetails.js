@@ -4,7 +4,7 @@ import Product from './Product';
 
 function ProductDetails() {
   const { productId } = useParams();
-  const api_url = "https://x8ki-letl-twmt.n7.xano.io/api:CcyG8c7s/products";
+  const api_url = "https://x8ki-letl-twmt.n7.xano.io/api:CcyG8c7s/product_list";
   const [product, setProduct] = useState({});
 
   useEffect(() => {
