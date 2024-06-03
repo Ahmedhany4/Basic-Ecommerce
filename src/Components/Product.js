@@ -9,7 +9,7 @@ function Product(props) {
           <div className="card" >
             {console.log(product.images)}
             {/* <img src={decodeURIComponent(product.images[0])} className="card-img-top" alt={product.title} /> */}
-            <img src={product.uploadImage.url} className="card-img-top" alt={product.title} />
+            <img src={product.image} className="card-img-top" alt={product.title} />
             <div className="card-body">
               <h5 className="card-title">{product.title}</h5>
               <p className="card-text">{product.description}</p>
